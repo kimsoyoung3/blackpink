@@ -1,0 +1,240 @@
+.lineUp {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 250px;
+    text-align: center;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+
+.lineUp h4 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 150px;
+}
+
+.photoprinter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.photoprinter .swiper {
+    width: calc(100% - 25%);
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    gap: 15px;
+}
+
+.photoprinter .swiper-slide {
+    width: 100%;
+}
+
+.photoprinter .swiper-slide>div {
+    width: 100%;
+}
+
+.photoprinter .swiper-slide>div>img {
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.photoprinter .swiper-slide>div>p {
+    margin-top: 10px;
+}
+
+.photoprinter .swiper-slide>div>p>span {
+    display: block;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photoprinter .swiper-button-next {
+    right: -5px;
+    color: #000;
+    width: 30px;
+    height: 30px;
+}
+
+.photoprinter .swiper-button-prev {
+    display: none;
+}
+
+.photoprinter_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 75%);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.photoprinter .swiper-scrollbar {
+    margin-top: 10px;
+    background: #D9D9D9;
+    bottom: 0;
+}
+
+.photoprinter .swiper-scrollbar-drag {
+    background: #F7A7BB;
+}
+
+.cartridge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartridge .cart_mySwiper {
+    width: calc(100% - 25%);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.cartridge .swiper-slide {
+    width: 100%;
+}
+
+.cartridge .swiper-slide>div {
+    width: 100%;
+}
+
+.cartridge .swiper-slide>div>img {
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.cartridge .swiper-slide>div>p {
+    margin-top: 10px;
+}
+
+.cartridge .swiper-slide>div>p>span {
+    display: block;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cartridge .swiper-button-next {
+    color: #000;
+    left: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.cartridge .swiper-button-prev {
+    display: none;
+}
+
+.cartridge_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 75%);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.cartridge .swiper-scrollbar {
+    margin-top: 10px;
+    background: #D9D9D9;
+    bottom: 0;
+}
+
+.cartridge .swiper-scrollbar-drag {
+    background: #F7A7BB;
+}
+
+@media (max-width:768px) {
+    .lineUp {
+        width: 100%;
+        background-color: #fff;
+        margin-top: 250px;
+        text-align: center;
+        padding: 100px 30px;
+        box-sizing: border-box;
+    }
+
+    .lineUp h4 {
+        font-size: 3rem;
+        font-weight: 300;
+        margin-bottom: 150px;
+    }
+
+    .photoprinter {
+        flex-direction: column-reverse;
+        margin-bottom: 150px;
+    }
+
+    .photoprinter_text {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .photoprinter .swiper-button-next {
+        display: none;
+    }
+
+    .cartridge {
+        flex-direction: column;
+    }
+
+    .cartridge_text {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .cartridge .swiper-button-next {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .lineUp {
+        padding: 50px 25px;
+        box-sizing: border-box;
+    }
+
+    .lineUp h4 {
+        font-size: 2.25rem;
+        font-weight: 300;
+        margin-bottom: 100px;
+    }
+
+    .photoprinter {
+        margin-bottom: 100px;
+    }
+
+    .photoprinter_text {
+        font-size: 2.25rem;
+    }
+
+    .cartridge_text {
+        font-size: 2.25rem;
+    }
+
+    .app_text li:nth-of-type(5) {
+        width: 68px;
+        position: absolute;
+        top: 50px;
+        left: 80%;
+    }
+}

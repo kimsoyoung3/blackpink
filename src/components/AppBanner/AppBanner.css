@@ -1,0 +1,157 @@
+.app_banner {
+    width: 100%;
+    background: url(/public/appBanner-img/app_bg.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 200px;
+    padding: 20px 200px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.app_text {
+    text-align: left;
+}
+
+.app_text li:nth-of-type(1) {
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+.app_text li:nth-of-type(2) {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.app_text li:nth-of-type(3) {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.app_text li:nth-of-type(4) {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.app_text li:nth-of-type(4) img {
+    display: block;
+}
+
+.app_text li:nth-of-type(5) img {
+    display: block;
+}
+
+.app_image {
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+
+.app_image img {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .app_banner {
+        width: 100%;
+        height: 1200px;
+        padding: 75px 38px;
+        box-sizing: border-box;
+        align-items: start;
+        position: relative;
+    }
+
+    .app_text {
+        white-space: nowrap;
+    }
+
+    .app_text li:nth-of-type(2) {
+        font-size: 4rem;
+    }
+
+    .app_text li:nth-of-type(5) {
+        position: absolute;
+        top: 22%;
+        left: 80%;
+    }
+
+    .app_image {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        left: 0;
+    }
+
+    .app_image img {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .app_banner {
+        height: 900px;
+        padding: 50px 20px;
+        box-sizing: border-box;
+    }
+
+    .app_text {
+        white-space: wrap;
+    }
+
+    .app_text li:nth-of-type(1) {
+        font-size: 1.8rem;
+    }
+
+    .app_text li:nth-of-type(2) {
+        font-size: 3.75rem;
+    }
+
+    .app_text li:nth-of-type(3) {
+        font-size: 1.25rem;
+    }
+
+    .app_text li:nth-of-type(3) span {
+        display: block;
+    }
+
+    .app_text li:nth-of-type(4) {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .app_text li:nth-of-type(4) img {
+        display: block;
+        width: 100%;
+    }
+
+    .app_text li:nth-of-type(5) {
+        width: 68px;
+        position: absolute;
+        top: 50px;
+        left: 83%;
+    }
+
+    .app_text li:nth-of-type(5) img {
+        width: 100%;
+    }
+
+    .app_image {
+        width: 100%;
+        left: 0;
+    }
+
+    .app_image img {
+        display: block;
+        width: 100%;
+    }
+}

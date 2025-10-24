@@ -51,7 +51,7 @@ const Product = () => {
                 <h4>Limited Line-up</h4>
                 <div className="product_inner">
                     <ul className={`product_list ${topVisible ? "visible" : ""}`}>
-                        <li><img src="/product-img/era2.svg" alt=""/></li>
+                        <li><img src={`${process.env.PUBLIC_URL}/product-img/era2.svg`} alt=""/></li>
                         <li>MINI 2 ERA Limited</li>
                         <li>
                             <button>Shop Now</button>
@@ -59,7 +59,7 @@ const Product = () => {
                         <li>₩160,000</li>
                     </ul>
                     <ul className={`product_list ${topVisible ? "visible" : ""}`}>
-                        <li><img src="/product-img/era3.svg" alt=""/></li>
+                        <li><img src={`${process.env.PUBLIC_URL}/product-img/era3.svg`} alt=""/></li>
                         <li>MINI 3 ERA Limited</li>
                         <li>
                             <button>Shop Now</button>
@@ -67,7 +67,7 @@ const Product = () => {
                         <li>₩190,000</li>
                     </ul>
                     <ul className={`product_list ${topVisible ? "visible" : ""}`}>
-                        <li><img src="/product-img/retro2.svg" alt=""/></li>
+                        <li><img src={`${process.env.PUBLIC_URL}/product-img/retro2.svg`} alt=""/></li>
                         <li>MINI 2 RETRO Limited</li>
                         <li>
                             <button>Shop Now</button>
@@ -75,7 +75,7 @@ const Product = () => {
                         <li>₩140,000</li>
                     </ul>
                     <ul className={`product_list ${topVisible ? "visible" : ""}`}>
-                        <li><img src="/product-img/retro3.svg" alt=""/></li>
+                        <li><img src={`${process.env.PUBLIC_URL}/product-img/retro3.svg`} alt=""/></li>
                         <li>MINI 3 RETRO Limited</li>
                         <li>
                             <button>Shop Now</button>
@@ -89,7 +89,7 @@ const Product = () => {
                 <div className="middle_wrap">
                     <div className="middle_inner">
                         <ul className={`middle_list middle_left ${middleVisible ? "visible" : ""}`}>
-                            <li><img src="/product-img/era2shadow.svg" alt=""/></li>
+                            <li><img src={`${process.env.PUBLIC_URL}/product-img/era2shadow.svg`} alt=""/></li>
                             <li>MINI 2 ERA</li>
                             <li>KODACK X BLACKPINK</li>
                             <li>코닥 미니2 ERA 포토프린터 사진인화기</li>
@@ -100,17 +100,17 @@ const Product = () => {
                                         <button>Shop Now</button>
                                     </li>
                                     <li>Color</li>
-                                    <li><img src="/product-img/blackpink.svg" alt=""/></li>
-                                    <li><img src="/product-img/black.svg" alt=""/></li>
+                                    <li><img src={`${process.env.PUBLIC_URL}/product-img/blackpink.svg`} alt=""/></li>
+                                    <li><img src={`${process.env.PUBLIC_URL}/product-img/black.svg`} alt=""/></li>
                                 </ul>
                             </li>
                         </ul>
-                        <div className="main_image"><img src="/product-img/colabo1.png" alt=""/></div>
+                        <div className="main_image"><img src={`${process.env.PUBLIC_URL}/product-img/colabo1.png`} alt=""/></div>
                         <div className="middle_bg">
-                            <img src="/product-img/middle_bg.jpg" alt=""/>
+                            <img src={`${process.env.PUBLIC_URL}/product-img/middle_bg.jpg`} alt=""/>
                         </div>
                         <ul className={`middle_list middle_right ${middleVisible ? "visible" : ""}`}>
-                            <li><img src="/product-img/era3shadow.svg" alt=""/></li>
+                            <li><img src={`${process.env.PUBLIC_URL}/product-img/era3shadow.svg`} alt=""/></li>
                             <li>MINI 3 ERA</li>
                             <li>KODACK X BLACKPINK</li>
                             <li>코닥 미니3 ERA 포토프린터 사진인화기</li>
@@ -118,8 +118,8 @@ const Product = () => {
                             <li>
                                 <ul>
                                     <li>Color</li>
-                                    <li><img src="/product-img/blackpink.svg" alt=""/></li>
-                                    <li><img src="/product-img/black.svg" alt=""/></li>
+                                    <li><img src={`${process.env.PUBLIC_URL}/product-img/blackpink.svg`} alt=""/></li>
+                                    <li><img src={`${process.env.PUBLIC_URL}/product-img/black.svg`} alt=""/></li>
                                     <li>
                                         <button>Shop Now</button>
                                     </li>
@@ -133,9 +133,9 @@ const Product = () => {
             <div className="product_bottom" ref={bottomRef}>
                 <h2>Other Collaboration</h2>
                 <div className="bottom_wrap">
-                    <img className="bottom_image" src="/product-img/colabo2.png" alt=""/>
+                    <img className="bottom_image" src={`${process.env.PUBLIC_URL}/product-img/colabo2.png`} alt=""/>
                     <ul className={`bottom_list ${bottomVisible ? "visible" : ""}`}>
-                        <li><img src="/product-img/retro3shadow.svg" alt=""/></li>
+                        <li><img src={`${process.env.PUBLIC_URL}/product-img/retro3shadow.svg`} alt=""/></li>
                         <li>MINI 3 RETRO</li>
                         <li>KODACK X BLACKPINK</li>
                         <li>코닥 미니3 레트로 포토프린터 사진인화기</li>
@@ -143,8 +143,8 @@ const Product = () => {
                         <li>
                             <ul>
                                 <li>Color</li>
-                                <li><img src="/product-img/blackpink.svg" alt=""/></li>
-                                <li><img src="/product-img/black.svg" alt=""/></li>
+                                <li><img src={`${process.env.PUBLIC_URL}/product-img/blackpink.svg`} alt=""/></li>
+                                <li><img src={`${process.env.PUBLIC_URL}/product-img/black.svg`} alt=""/></li>
                                 <li>
                                     <button>Shop Now</button>
                                 </li>

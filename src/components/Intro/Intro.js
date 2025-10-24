@@ -49,40 +49,40 @@ const Intro = () => {
                 <li>
                     <div className={bottomVisible ? "visible" : ""}>
                         <h1><span>BLACKPINK</span> X <span>KODAK</span></h1>
-                        <img src="/intro-img/intro1.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/intro-img/intro1.svg`} alt=""/>
                     </div>
 
                 </li>
                 <li>
                     <div className={bottomVisible ? "visible" : ""}>
-                        <img src="/intro-img/intro2.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/intro-img/intro2.svg`} alt=""/>
                         <ul className="intro_arrow">
-                            <li><img src="/intro-img/intro_arrow.svg" alt=""/></li>
-                            <li><img src="/intro-img/intro_arrow.svg" alt=""/></li>
-                            <li><img src="/intro-img/intro_arrow.svg" alt=""/></li>
-                            <li><img src="/intro-img/intro_arrow.svg" alt=""/></li>
+                            <li><img src={`${process.env.PUBLIC_URL}/intro-img/intro_arrow.svg`} alt=""/></li>
+                            <li><img src={`${process.env.PUBLIC_URL}/intro-img/intro_arrow.svg`} alt=""/></li>
+                            <li><img src={`${process.env.PUBLIC_URL}/intro-img/intro_arrow.svg`} alt=""/></li>
+                            <li><img src={`${process.env.PUBLIC_URL}/intro-img/intro_arrow.svg`} alt=""/></li>
                         </ul>
                         <h1>Is to Capturing </h1>
-                        <img src="/intro-img/intro3.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/intro-img/intro3.svg`} alt=""/>
                     </div>
                 </li>
                 <li>
                     <div className={bottomVisible ? "visible" : ""}>
-                        <img className="symbol" src="/intro-img/symbol_1.svg" alt=""/>
+                        <img className="symbol" src={`${process.env.PUBLIC_URL}/intro-img/symbol_1.svg`} alt=""/>
                         <h1>moments</h1>
-                        <img src="/intro-img/intro3.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/intro-img/intro3.svg`} alt=""/>
                         <div className="intro_bottom-hr"></div>
                     </div>
 
                 </li>
                 <li>
                     <div className={bottomVisible ? "visible" : ""}>
-                        <img className="pc_intro" src="/intro-img/intro4.svg" alt=""/>
+                        <img className="pc_intro" src={`${process.env.PUBLIC_URL}/intro-img/intro4.svg`} alt=""/>
                         <div className="mo_intro">
-                            <img src="/intro-img/mo_intro1-1.svg" alt=""/>
+                            <img src={`${process.env.PUBLIC_URL}/intro-img/mo_intro1-1.svg`} alt=""/>
                         </div>
                         <h1>telling stories</h1>
-                        <img className="symbol" src="/intro-img/symbol_2.svg" alt=""/>
+                        <img className="symbol" src={`${process.env.PUBLIC_URL}/intro-img/symbol_2.svg`} alt=""/>
                         <h1>through visuals</h1>
                     </div>
                 </li>

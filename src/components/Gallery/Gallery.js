@@ -41,27 +41,27 @@ const Gallery = () => {
             >
                 <SwiperSlide className="swiper-slide slide1">
                     <a href="https://www.instagram.com/kodakphotoprinter_kr/">
-                        <img src="/gallery-img/sns1-1.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/gallery-img/sns1-1.svg`} alt=""/>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide slide2">
-                    <a href="https://www.instagram.com/kodakphotoprinter_kr/"><
-                        img src="/gallery-img/sns1-2.svg" alt=""/>
+                    <a href="https://www.instagram.com/kodakphotoprinter_kr/">
+                        <img src={`${process.env.PUBLIC_URL}/gallery-img/sns1-2.svg`} alt=""/>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide slide3">
                     <a href="https://www.instagram.com/kodakphotoprinter_kr/">
-                        <img src="/gallery-img/sns1-3.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/gallery-img/sns1-3.svg`} alt=""/>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide slide4">
                     <a href="https://www.instagram.com/kodakphotoprinter_kr/">
-                        <img src="/gallery-img/sns1-4.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/gallery-img/sns1-4.svg`} alt=""/>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide slide5">
                     <a href="https://www.instagram.com/kodakphotoprinter_kr/">
-                        <img src="/gallery-img/sns1-5.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/gallery-img/sns1-5.svg`} alt=""/>
                     </a>
                 </SwiperSlide>
             </Swiper>
@@ -69,7 +69,7 @@ const Gallery = () => {
                 <li>
                     <span>BLACKPINK</span>with<span>KODAK</span>
                 </li>
-                <li><img src="/gallery-img/instaLogo.svg" alt=""/></li>
+                <li><img src={`${process.env.PUBLIC_URL}/gallery-img/instaLogo.svg`} alt=""/></li>
                 <li>코닥 X 블랙핑크 공식 인스타그램</li>
                 <li><a href="https://www.instagram.com/kodakphotoprinter_kr/">@kodakphotoprinter_kr</a></li>
                 <li><a href="https://www.instagram.com/kodakphotoprinter_kr/">바로가기</a></li>
@@ -105,27 +105,27 @@ const Gallery = () => {
             >
                 <SwiperSlide className="swiper-slide slide5">
                     <a href="https://www.instagram.com/kodakphotoprinter_kr/">
-                        <img src="/gallery-img/sns2-1.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/gallery-img/sns2-1.svg`} alt=""/>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide slide4">
                     <a href="https://www.instagram.com/kodakphotoprinter_kr/">
-                        <img src="/gallery-img/sns2-2.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/gallery-img/sns2-2.svg`} alt=""/>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide slide3">
                     <a href="https://www.instagram.com/kodakphotoprinter_kr/">
-                        <img src="/gallery-img/sns2-3.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/gallery-img/sns2-3.svg`} alt=""/>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide slide2">
                     <a href="https://www.instagram.com/kodakphotoprinter_kr/">
-                        <img src="/gallery-img/sns2-4.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/gallery-img/sns2-4.svg`} alt=""/>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide slide1">
                     <a href="https://www.instagram.com/kodakphotoprinter_kr/">
-                        <img src="/gallery-img/sns2-5.svg" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/gallery-img/sns2-5.svg`} alt=""/>
                     </a>
                 </SwiperSlide>
             </Swiper>

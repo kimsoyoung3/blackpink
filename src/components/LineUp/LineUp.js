@@ -28,49 +28,49 @@ const LineUp = () => {
                 >
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥 미니2 ERA-1.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥 미니2 ERA-1.png`} alt="" />
                             <p>코닥 미니2 ERA 포토프린터<span>사진인화기+카트리지 8매</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니2-ERA-2.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니2-ERA-2.png`} alt="" />
                             <p>코닥 미니2 ERA 포토프린터<span>사진인화기+카트리지 68매 번들</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥 미니3 ERA-1.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥 미니3 ERA-1.png`} alt="" />
                             <p>코닥 미니3 ERA 포토프린터<span>사진인화기+카트리지 8매</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니3-ERA-2.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니3-ERA-2.png`} alt="" />
                             <p>코닥 미니3 ERA 포토프린터<span>사진인화기+카트리지 68매 번들</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니2-레트로-1.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니2-레트로-1.png`} alt="" />
                             <p>코닥 미니2 레트로 포토프린터<span>사진인화기+카트리지 8매</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니2-레트로-2.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니2-레트로-2.png`} alt="" />
                             <p>코닥 미니2 레트로 포토프린터<span>사진인화기+카트리지 68매 번들</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니3-레트로-1.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니3-레트로-1.png`} alt="" />
                             <p>코닥 미니3 레트로 포토프린터<span>사진인화기+카트리지 8매</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니3-레트로-2.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니3-레트로-2.png`} alt="" />
                             <p>코닥 미니3 레트로 포토프린터<span>사진인화기+카트리지 68매 번들</span></p>
                         </div>
                     </SwiperSlide>
@@ -97,37 +97,37 @@ const LineUp = () => {
                 >
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니2-전용-2인치-카트리지-60매.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니2-전용-2인치-카트리지-60매.png`} alt="" />
                             <p>코닥 미니2 전용 2인치<span>카트리지 60매</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니2-전용-2인치-카트리지-120매.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니2-전용-2인치-카트리지-120매.png`} alt="" />
                             <p>코닥 미니2 전용 2인치<span>카트리지 120매</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니3-전용-3인치-카트리지-60매.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니3-전용-3인치-카트리지-60매.png`} alt="" />
                             <p>코닥 미니3 전용 3인치<span>카트리지 60매</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니3-전용-3인치-카트리지-120매.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니3-전용-3인치-카트리지-120매.png`} alt="" />
                             <p>코닥 미니3 전용 3인치<span>카트리지 120매</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니3-전용-3인치-카트리지-60매.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니3-전용-3인치-카트리지-60매.png`} alt="" />
                             <p>코닥 미니3 전용 3인치<span>카트리지 60매</span></p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <img src="/lineUp-img/코닥-미니3-전용-3인치-카트리지-120매.png" alt="" />
+                            <img src={`${process.env.PUBLIC_URL}/lineUp-img/코닥-미니3-전용-3인치-카트리지-120매.png`} alt="" />
                             <p>코닥 미니3 전용 3인치<span>카트리지 120매</span></p>
                         </div>
                     </SwiperSlide>

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/blackpink/static/css/main.846547e0.css",
+    "main.js": "/blackpink/static/js/main.ed1ab81a.js",
+    "static/js/453.da058566.chunk.js": "/blackpink/static/js/453.da058566.chunk.js",
+    "static/media/dash_bg.png": "/blackpink/static/media/dash_bg.171f8cf67d8b4ea18763.png",
+    "static/media/app_bg.png": "/blackpink/static/media/app_bg.867aa3f2a27030460a07.png",
+    "index.html": "/blackpink/index.html",
+    "main.846547e0.css.map": "/blackpink/static/css/main.846547e0.css.map",
+    "main.ed1ab81a.js.map": "/blackpink/static/js/main.ed1ab81a.js.map",
+    "453.da058566.chunk.js.map": "/blackpink/static/js/453.da058566.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.846547e0.css",
+    "static/js/main.ed1ab81a.js"
+  ]
+}

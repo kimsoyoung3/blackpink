@@ -41,15 +41,15 @@
 }
 
 .product_inner ul:nth-of-type(2) {
-    transition-delay: 0.2s;
+    transition-delay: 0.1s;
 }
 
 .product_inner ul:nth-of-type(3) {
-    transition-delay: 0.4s;
+    transition-delay: 0.2s;
 }
 
 .product_inner ul:nth-of-type(4) {
-    transition-delay: 0.6s;
+    transition-delay: 0.3s;
 }
 
 .product_list li:nth-of-type(1) img {
@@ -109,13 +109,13 @@
 .middle_list {
     height: 418px;
     transform: translateY(150px);
-    transition: all 0.8s ease-in-out;
+    transition: all 0.5s ease-in-out;
     opacity: 0;
 }
 
 .middle_list.visible {
     transform: translateY(0);
-    transition: all 0.8s ease-in-out;
+    transition: all 0.5s ease-in-out;
     opacity: 1;
 }
 
@@ -255,7 +255,7 @@
     flex-direction: column;
     transform: translateY(100px);
     opacity: 0;
-    transition: all 0.8s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .bottom_list.visible {

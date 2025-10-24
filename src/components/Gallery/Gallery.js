@@ -22,7 +22,7 @@ const Gallery = () => {
                     reverseDirection: true,
                 }}
                 breakpoints={{
-                    400: {
+                    370: {
                         slidesPerView: 3,
                         spaceBetween: 80,
                     },
@@ -86,7 +86,7 @@ const Gallery = () => {
                     reverseDirection: false,
                 }}
                 breakpoints={{
-                    400: {
+                    370: {
                         slidesPerView: 3,
                         spaceBetween: 80,
                     },

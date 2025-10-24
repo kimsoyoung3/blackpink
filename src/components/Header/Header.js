@@ -10,7 +10,7 @@ const Header = ({onMenuClick}) => {
         <header>
             <div className="hd_inner">
                 {/*로고*/}
-                <div className="hd_logo" onClick={() => onMenuClick("top")}><img src="/header-img/logo.svg" alt=""/></div>
+                <div className="hd_logo" onClick={() => onMenuClick("top")}><img src={process.env.PUBLIC_URL + "/header-img/logo.svg"} alt=""/></div>
                 <ul className="hd_menu">
                     <li onClick={() => onMenuClick("introSection")}>INTRO</li>
                     <li onClick={() => onMenuClick("productSection")}>PRODUCT</li>
@@ -19,8 +19,8 @@ const Header = ({onMenuClick}) => {
                 </ul>
                 {/*아이콘*/}
                 <ul className="hd_icons">
-                    <li><a href="#"><img src="/header-img/shopping-bag.svg" alt=""/></a></li>
-                    <li><a href="#"><img src="/header-img/user.svg" alt=""/></a></li>
+                    <li><a href="#"><img src={process.env.PUBLIC_URL + "/header-img/shopping-bag.svg"} alt=""/></a></li>
+                    <li><a href="#"><img src={process.env.PUBLIC_URL + "/header-img/user.svg"} alt=""/></a></li>
                 </ul>
                 {/*모바일 메뉴바*/}
                 <button className="hd_menu_btn" onClick={() => setMenuOpen(prev => !prev)}>
